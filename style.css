@@ -1,343 +1,8 @@
-/*Padrão*/
-
-body{
-  background-color: black;
-}
-.content{
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-#curiosidades h2 a{
-  text-decoration: none;
-  color: #ffffff;
-}
-#metodo h2 a{
-  text-decoration: none;
-  color: #000;
-}
-::-webkit-scrollbar{
-  background-color: black;
-}
-::-webkit-scrollbar-button{
-  background-color: #000000;
-}
-::-webkit-scrollbar-track{
-  background-color: #000000;
-}
-::-webkit-scrollbar-thumb{
-  background-color: #ffffff;
-}
-
-/*Menu*/
-
-#titulo{
-  font-family: 'Yellowtail', serif;
-  text-align: center;
-  font-weight: 800;
-  font-size: 32px;
-  color: #ffffff;
-  justify-content: center;
-  align-items: center;
-
-}
-#titulo a{
-  text-decoration: none;
-  color: #ffffff;
-}
-#menu{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-#menu ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  font-family: 'Rajdhani', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-  padding-bottom: 10px ;
-}
-#menu ul li{
-  padding: 0px 25px;
-  font-size: 20px;
-}
-#menu ul li a{
-  text-decoration: none;
-  color: #ffffff;
-}
-#menu li a:hover{
-  padding-top: -7px;
-  border-bottom: 5px solid #ffffff;
-}
-#logo img{
-  display: block;
-  height: 100px;
-  width: 100px;
-  margin: 0 auto;
-}
-
-/*Apresentação*/
-
-.imagem{
-  background-image: url(/EnsinandoMineiro/_imagens/cuboimg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 620px;
-  background-color: #00000066;
-}
-.explicacao{
-  padding-top: 10em;
-  color: #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-.explicacao h1{
-  font-size: 45px;
-  font-weight: 800;
-  font-family: 'Rajdhani', sans-serif;
-}
-.explicacao p{
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-/*Metodo*/
-
-#metodo{
-  padding-top: 4em;
-  padding-bottom: 2em;
-  background-color: #ffffff;
-  color: #000000;
-}
-#metodo  h2{
-  font-size: 35px;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 800;
-  color: #000000;
-  border: 1px solid #000000;
-  width: 30%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  padding: 15px;
-}
-#metodo h3{
-  text-align: center;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 25px;
-  padding-top: 3em;
-}
-#metodo p{
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  color: #000000;;
-  text-align: justify;
-  padding: 5px 0;
-}
-
-/*Blocos*/
-
-@media screen and (min-width: 728px) {
-
-.paragraph{
- display: flex;
- flex-direction: row;
- padding: 3em 0;
-}
-.paragraph-2{
-  display: flex;
-  flex-direction: row;
-}
-
-.md-3{
-  display: flex;
-  flex-direction: column;
-  max-width: 25%;
-  text-align: left;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 3px;
-  margin-right: 3px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
-}
-.md-3 span{
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-}
-.md-3 p{
-  font-family: 'Roboto', sans-serif;
-}
-
-/*Beneficios*/
-
-#beneficios{
-  background-image: url(./_imagens/separacao.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 8em 0;
-}
-#beneficios h2{
-  text-align: center;
-  font-size: 33px;
-  color: #ffffff;
-  font-family: 'Rajdhani', sans-serif;
-}
-#beneficios p{
-  font-size: 24px;
-  text-align: center;
-  color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-}
-
-/*curiosidades*/
-
-#curiosidades{
-  padding: 5em 0;
-}
-
-#curiosidades h2{
-  text-align: center;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 800;
-  font-size: 35px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  width: 15%;
-  display: block;
-  margin: 0 auto;
-  padding: 15px;
-  text-transform: uppercase;
-}
-.curiosities h3{
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 800;
-  font-size: 25px;
-  padding: 5px 0;
-}
-.curiosities p{
-  text-align: justify;
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-  padding: 10px;
-}
-@media screen and (min-width: 728px){
-
-#attemption{
-  display: flex;
-  flex-direction: row;
-  margin: 0 100px;
-  justify-content: center;
-  align-items: center;
-  padding: 3em 0;
-}
-
-.curiosities{
-  display: flexbox;
-  width: 45%;
-  color: #ffffff;
-  padding: 0 6em;
-  height: 60vh;
-}
-}
-
-/*Footer*/
-
-#rodape{
-  border-top: 2px solid #ffffff;
-  padding: 2em;
-  text-align: center;
-}
-#rodape p{
-  color: #ffffff;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  text-align: center;
-}
-.marca{
-  font-family: 'Yellowtail', serif;
-  font-weight: 600;
-  font-size: 30px;
-  color: #ffffff;
-}
-.alinhamento{
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container{
-  position: relative;
-  margin: 2em 0;
-}
-.chamada{
-  width: 500px;
-  padding: 20px;
-  font-size: 24px;
-  color: #ffffff;
-  outline: none;
-  border: 2px solid #ffffff;
-  background-color: black;
-}
-.chamada:focus{
-  border: none;
-  outline: 2px solid #ffffff;
-}
-.chamada:focus + .novidade,
-.chamada:valid + .novidade{
-  top: -12px;
-  left: 10px;
-  font-size: 20px;
-  padding: 0 10px;
-  background-color: black;
-}
-.novidade{
-  position: absolute;
-  top: 20px;
-  left: 25px;
-  font-size: 25px;
-  letter-spacing: 0.05em;
-  pointer-events: none;
-  font-weight: 600;
-  font-family: sans-serif;
-  transition: .4s;
-  color: #ffffff;
-}
-#dados{
-  display: block;
-  margin: 0 650px;
-}
-.submit{
-  width: 500px;
-  padding: 20px;
-  background-color: black;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: sans-serif;
-  border: 2px solid #ffffff;
-  font-weight: 600;
-}
-
-body {
-  height: 50%;
+@charset "UTF-8";
+html, body {
+  height: 80%;
   background-blend-mode: overlay;
+  background-color: black;
 }
 
 .credits {
@@ -363,7 +28,6 @@ body {
 }
 
 .scene {
-  margin-top: 10em;
   width: 100%;
   height: 100%;
   -webkit-perspective: 1200px;
@@ -478,5 +142,397 @@ body {
 
 .cube > .piece > .element > .sticker.red {
   background-color: #DF0500;
+}
+
+/*Padrão*/
+body {
+  background-color: black;
+}
+
+.content {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#curiosidades h2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#metodo h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+
+/*Menu*/
+#titulo {
+  font-family: 'Yellowtail', serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#titulo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+#menu ul li {
+  padding: 0px 9px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#menu li a:hover {
+  padding-top: -7px;
+  border-bottom: 5px solid #ffffff;
+}
+
+#logo img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+/*Apresentação*/
+.imagem {
+  background-image: url(/EnsinandoMineiro/_imagens/cuboimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+  background-color: #00000066;
+}
+
+.explicacao {
+  padding: 5em 0;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.explicacao h1 {
+  font-size: 45px;
+  font-weight: 800;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.explicacao p {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Metodo*/
+#metodo {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#metodo h2 {
+  font-size: 35px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  color: #000000;
+  border: 1px solid #000000;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+#metodo h3 {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  padding-top: 3em;
+}
+
+#metodo p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  text-align: justify;
+  padding: 5px 0;
+}
+
+/*Blocos*/
+@media screen and (min-width: 728px) {
+  .paragraph {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 3em 0;
+  }
+  .paragraph-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .md-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 25%;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+
+.md-3 span {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.md-3 p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Beneficios*/
+#beneficios {
+  background-image: url(./_imagens/separacao.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8em 0;
+}
+
+#beneficios h2 {
+  text-align: center;
+  font-size: 33px;
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#beneficios p {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*curiosidades*/
+#curiosidades {
+  padding: 5em 0;
+}
+
+#curiosidades h2 {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.curiosities h3 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.curiosities p {
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+@media screen and (min-width: 728px) {
+  #attemption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3em 0;
+  }
+  .curiosities {
+    display: flexbox;
+    width: 45%;
+    color: #ffffff;
+    padding: 0 6em;
+    height: 60vh;
+  }
+}
+
+/*Footer*/
+#rodape {
+  border-top: 2px solid #ffffff;
+  padding: 2em;
+  text-align: center;
+}
+
+#rodape p {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.marca {
+  font-family: 'Yellowtail', serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.alinhamento {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  margin: 2em 0;
+}
+
+.chamada {
+  width: 500px;
+  padding: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  outline: none;
+  border: 2px solid #ffffff;
+  background-color: black;
+}
+
+.chamada:focus {
+  border: none;
+  outline: 2px solid #ffffff;
+}
+
+.chamada:focus + .novidade,
+.chamada:valid + .novidade {
+  top: -12px;
+  left: 90px;
+  font-size: 20px;
+  padding: 0 10px;
+  background-color: black;
+}
+
+.novidade {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  font-weight: 600;
+  font-family: sans-serif;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #ffffff;
+}
+
+#dados {
+  display: block;
+  margin: 0 650px;
+}
+
+.submit {
+  width: 500px;
+  padding: 20px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: 2px solid #ffffff;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
